@@ -117,7 +117,7 @@ function bfs(start, goal) {
 
 // 4. 미라 그래픽 디자인 양식
 function mummyDesign() {
-    pop();
+    push();
     let x = mummyX - mummySize / 2;
     let y = mummyY - mummySize / 2;
     let s = mummySize;
@@ -139,5 +139,5 @@ function mummyDesign() {
     fill(255, 120, 120);
     circle(mummyX - s*0.18, mummyY - s*0.1, s*0.08);
     circle(mummyX + s*0.18, mummyY - s*0.1, s*0.08);
-    
+    pop();
 }
