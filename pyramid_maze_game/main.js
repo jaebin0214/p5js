@@ -22,7 +22,6 @@ function draw(){
         }
         torchUpdate();
         torchDraw();
-        //mummyEyeDesign();
     }
     if (gameState === 'gameover') {
         mazeDrawing();
