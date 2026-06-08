@@ -1,6 +1,6 @@
 let cells = []; 
 let cellSize; 
-let currentStage = 3;   // 현재 스테이지 단계 번호
+let currentStage = 1;   // 현재 스테이지 단계 번호
 
 function mazeStructure(){ 
     for (let i = 0; i < height/cellSize; i++){ 
