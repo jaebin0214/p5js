@@ -151,7 +151,7 @@ function torchBlockedUI() {
     noStroke();
     for (let i = 0; i < 8; i++) {
         let t = i / 8;
-        let a = floor(map(t, 0, 1, 80 * pulseA, 0));
+        let a = floor(map(t, 0, 1, 30 * pulseA, 0));
         fill(180, 0, 0, a);
         let m = t * min(width, height) * 0.5;
         rect(0, 0, width, m);
